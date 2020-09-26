@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CommanderBot",
+      "type": "python",
+      "request": "launch",
+      "module": "commanderbot",
+      "console": "integratedTerminal",
+      "args": ["bot.json", "--tokenfile", "bot.token", "--log", "INFO"]
+    }
+  ]
+}

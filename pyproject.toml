@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "commanderbot-dev"
+version = "0.1.0"
+description = "Python environment scaffolding for CommanderBot development."
+authors = ["Arcensoth <arcensoth@gmail.com>"]
+license = "MIT"
+readme = 'README.md'
+repository = "https://github.com/CommanderBot-Dev/commanderbot-dev"
+homepage = "https://github.com/CommanderBot-Dev/commanderbot-dev"
+keywords = ['discord', 'bot']
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+commanderbot-lib = {path = "../commanderbot-lib"}
+commanderbot-ext = {path = "../commanderbot-ext"}
+commanderbot = {path = "../commanderbot-cli"}
+colorama = "^0.4.3"
+colorlog = "^4.2.1"
+pyyaml = "^5.3.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

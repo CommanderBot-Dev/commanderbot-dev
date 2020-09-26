@@ -1,0 +1,4 @@
+# You may use this directory to store bot data files that are ignored by git.
+
+*
+!.gitignore
