@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "venv\\commanderbot-dev\\Scripts\\python.exe",
+  "python.pythonPath": "venv/commanderbot-dev/bin/python",
   "files.exclude": {
     "venv/**": true
   }
