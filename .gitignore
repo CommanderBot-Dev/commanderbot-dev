@@ -1,4 +1,10 @@
+.pytest_cache/**
+**/__pycache__
 venv/**
-poetry.lock
+dist/**
+*.egg-info/**
+
+.vscode/**
+
 bot.json
 bot.token
