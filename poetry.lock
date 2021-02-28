@@ -167,6 +167,7 @@ python-versions = "^3.8"
 develop = true
 
 [package.dependencies]
+beet = "^0.10.5"
 commanderbot-lib = "^0.6.0"
 "discord.py" = "^1.6.0"
 lectern = "^0.6.0"
